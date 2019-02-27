@@ -52,9 +52,12 @@ public class UserRestController {
 		service.deleteUser(id);
 		return ResponseEntity.ok().build();
 	}
+<<<<<<< HEAD
 	
 	@GetMapping("/error")
 	public ResponseEntity<Void> error() {
 		return ResponseEntity.ok().build();
 	}
+=======
+>>>>>>> branch 'master' of https://github.com/zeeshanalamkhan/jpa-demo-with-spring-boot.git
 }

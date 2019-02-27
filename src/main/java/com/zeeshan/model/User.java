@@ -7,7 +7,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
+<<<<<<< HEAD
 @Table(name="USERS1")
+=======
+@Table(name="USERS")
+>>>>>>> branch 'master' of https://github.com/zeeshanalamkhan/jpa-demo-with-spring-boot.git
 public class User {
 
 	@Id
