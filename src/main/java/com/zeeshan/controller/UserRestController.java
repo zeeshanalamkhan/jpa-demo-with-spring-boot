@@ -52,4 +52,9 @@ public class UserRestController {
 		service.deleteUser(id);
 		return ResponseEntity.ok().build();
 	}
+	
+	@GetMapping("/error")
+	public ResponseEntity<Void> error() {
+		return ResponseEntity.ok().build();
+	}
 }
